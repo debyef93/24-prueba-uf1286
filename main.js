@@ -3,12 +3,21 @@ function generarArrayBidimensional() {
     return [0, 1, 2,];
   }
 
-  var array = [1,4,6,12];
+  var array = [1,4,6,10];
   for (var i = 0; i < 10; i++) {
     array.push(generarArray());
   }
   return array;
 }
+
+ var array1= [2,5,7,9];
+  for (var i=0; < 10; i++){
+    array1.push(generarArray());
+  }
+   return array;
+
+
+   
 
 function mostrarArrayBidimensional(arrayBidimensional) {
   function mostrarArray(array) {
