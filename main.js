@@ -11,12 +11,13 @@ function generarArrayBidimensional() {
 }
 
 var array1 = [2[7], 5[6], 7[5], 9[4]];
-for (var i = 0; j=10; i++) {
+for (var i = 0; i < 10; i++) {
   array1.push(generarArray());
 }
-return array;
+return array1;
 
-var lista=rgb(+Math.floor(),Math.random()*256))+(math.floor(0), Math.random(256)(`,`))=(math.random());
+var lista=rgb(+Math.floor(),Math.random()*256)+(math.floor(0)math.random(256)(`,`))=(math.floor(),math.random());
 
-console.log(array);
+console.log(generarArrayBidimensional);
 console.log(array1);
+console.log(lista);
