@@ -1,9 +1,9 @@
 function generarArrayBidimensional() {
   function generarArray() {
-    return [0, 1, 2];
+    return [0, 1, 2,];
   }
 
-  var array = [];
+  var array = [1,4,6,12];
   for (var i = 0; i < 10; i++) {
     array.push(generarArray());
   }
